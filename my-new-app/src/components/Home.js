@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate } from 'react-router-dom'; // Import useNavigate hook from react-router-dom
+import { useNavigate } from 'react-router-dom';
 import Footer from "./footer";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -10,17 +10,15 @@ import img15 from './img15.jpeg';
 import logooo from './logooo.png'; // Chatbot icon
 
 const Home = () => {
-  const [showMessage, setShowMessage] = useState(false); // State to control message visibility
-  const navigate = useNavigate(); // Initialize useNavigate hook
+  const [showMessage, setShowMessage] = useState(false);
+  const navigate = useNavigate();
 
-  // Automatically show chatbot message when the page loads
   useEffect(() => {
     setShowMessage(true);
   }, []);
 
-  // Function to navigate to the new page when chatbot icon is clicked
   const handleChatbotClick = () => {
-    window.location.href = "https://backend-cool-14.onrender.com/"; // Redirect to Flask route
+    window.location.href = "https://backend-cool-14.onrender.com/";
   };
 
   return (
@@ -68,14 +66,16 @@ const Home = () => {
 
       {/* Chatbot Icon */}
       <div 
-        onClick={handleChatbotClick} // Update click handler
+        onClick={handleChatbotClick}
         style={{
           position: 'fixed',
-          bottom: '20px',
-          right: '20px',
-          width: '70px',
-          height: '70px',
-          background: `url(${logooo}) no-repeat center/contain`, // Use the chatbot icon
+          bottom: '5%',
+          right: '5%',
+          width: '10vw', // Responsive width
+          height: '10vw', // Responsive height
+          maxWidth: '70px', // Max size
+          maxHeight: '70px',
+          background: `url(${logooo}) no-repeat center/contain`,
           cursor: 'pointer',
           zIndex: 1000
         }}
@@ -87,15 +87,17 @@ const Home = () => {
         <div
           style={{
             position: 'fixed',
-            bottom: '100px',
-            right: '20px',
-            width: '250px',
+            bottom: '15%',
+            right: '5%',
+            width: '40vw', // Responsive width
+            maxWidth: '250px', // Max size
             padding: '15px',
             backgroundColor: '#f1f1f1',
             border: '1px solid #ccc',
             borderRadius: '8px',
             boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
             zIndex: 1001,
+            fontSize: '1rem', // Responsive font size
           }}
         >
           <div style={{ marginBottom: '10px', fontWeight: 'bold' }}>Hi, I am a chatbot. How can I help you?</div>
