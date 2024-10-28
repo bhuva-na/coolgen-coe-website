@@ -48,17 +48,14 @@ const Home = () => {
                 Mission
               </MDBTypography>
               <MDBTypography tag="h5" style={{ fontFamily: 'Matemasie', fontWeight: "500", color: "black", textAlign: 'justify' }}>
-                We deliver cutting-edge solutions across cloud, AI, digital, branding, consulting, and sustainability to transform businesses and fuel their success.
-                <br /><br />
-                Our commitment to budget-conscious innovation, exceptional quality, on-time delivery, and industry-leading standards ensures future-proof solutions for our clients.
+              Empowering growth through expert guidance and valuable resources.                <br /><br />
               </MDBTypography>
               <hr />
               <MDBTypography tag="h5" variant="h5" className="fw-bold mb-2" style={{ textAlign: 'justify' }}>
                 Vision
               </MDBTypography>
               <MDBTypography tag="h5" style={{ fontFamily: 'Matemasie', fontWeight: "500", color: "black", textAlign: 'justify' }}>
-                Empowering businesses of all sizes to thrive in the digital age.
-              </MDBTypography>
+              A world where individuals and organizations thrive.              </MDBTypography>
             </div>
           </Col>
         </Row>
@@ -100,7 +97,7 @@ const Home = () => {
             fontSize: '1rem', // Responsive font size
           }}
         >
-          <div style={{ marginBottom: '10px', fontWeight: 'bold' }}>Hi, I am a chatbot. How can I help you?</div>
+          <div style={{ marginBottom: '10px', fontWeight: 'bold' }}>Hi, I am a cuby. How can I help you?</div>
         </div>
       )}
 

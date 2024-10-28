@@ -57,10 +57,9 @@ const Internships = () => {
             </MDBTypography>
             <hr />
             <MDBTypography className="lead" style={{ fontFamily: 'Matemasie', fontWeight: "500", color: 'white' }}>
-              Gain practical experience and earn a certificate by joining our internship programs.
-              <br /><br />
+            Kickstart your career journey with a Cuberoots internship. We offer a variety of internship opportunities across different fields              <br /><br />
               <p className="fw-bold">Why Intern with Us?</p>
-              Our internships provide valuable industry experience and networking opportunities. Whether you're interested in tech, marketing, or finance, we have something for everyone.
+              Our internships  providing you with Hands-on experience , Mentorship and guidance , Professional development , Networking opportunities .
             </MDBTypography>
           </div>
         </div>
@@ -84,11 +83,10 @@ const Internships = () => {
             >
               <Card.Body>
                 <Card.Title>
-                  <MDBIcon fas icon="graduation-cap" style={{color:"#2e68b1",padding:"2%"}}/><b>CERTIFICATES</b>
+                  <MDBIcon fas icon="graduation-cap" style={{color:"#2e68b1",padding:"2%"}}/><b>HANDS-ON EXPERIENCE</b>
                 </Card.Title>
                 <Card.Text style={{ fontFamily: 'Matemasie', fontWeight: "700", color: 'black' }}>
-                  Receive a certificate recognizing your successful completion of the internship.
-                </Card.Text>
+                Apply your knowledge and skills to real-world projects                </Card.Text>
               </Card.Body>
             </Card>
           </Col>
@@ -102,11 +100,10 @@ const Internships = () => {
             >
               <Card.Body>
                 <Card.Title>
-                  <MDBIcon fas icon="handshake" style={{color:"#2e68b1",padding:"2%"}}/><b> CAREER COUNSELING</b>
+                  <MDBIcon fas icon="handshake" style={{color:"#2e68b1",padding:"2%"}}/><b> MENTORSHIP and GUIDANCE:</b>
                 </Card.Title>
                 <Card.Text style={{ fontFamily: 'Matemasie', fontWeight: "700", color: 'black' }}>
-                  Access career counseling services for job placement support and interview preparation.
-                </Card.Text>
+                Learn from experienced professionals and receive valuable feedback.                </Card.Text>
               </Card.Body>
             </Card>
           </Col>
@@ -120,11 +117,10 @@ const Internships = () => {
             >
               <Card.Body>
                 <Card.Title>
-                  <MDBIcon fab icon="black-tie"style={{color:"#2e68b1",padding:"2%"}} /><b>POTENTIAL JOB OFFER</b>
+                  <MDBIcon fab icon="black-tie"style={{color:"#2e68b1",padding:"2%"}} /><b>PROFESSIONAL DEVELOPMENT:</b>
                 </Card.Title>
                 <Card.Text style={{ fontFamily: 'Matemasie', fontWeight: "700", color: 'black' }}>
-                  Stand out for potential full-time job offers or extended internship opportunities.
-                </Card.Text>
+                Enhance your skills and build your resume.                </Card.Text>
               </Card.Body>
             </Card>
           </Col>
@@ -138,11 +134,10 @@ const Internships = () => {
             >
               <Card.Body>
                 <Card.Title>
-                  <MDBIcon fas icon="award"style={{color:"#2e68b1",padding:"2%"}} /><b>RECOGNITION AND AWARDS</b>
+                  <MDBIcon fas icon="award"style={{color:"#2e68b1",padding:"2%"}} /><b>NETWORKING OPPORTUNITIES:</b>
                 </Card.Title>
                 <Card.Text style={{ fontFamily: 'Matemasie', fontWeight: "700", color: 'black' }}>
-                  Receive recognition and awards for outstanding performance and achievements.
-                </Card.Text>
+                Connect with industry professionals and expand your network.                </Card.Text>
               </Card.Body>
             </Card>
           </Col>

@@ -61,11 +61,9 @@ const COEdetails = () => {
                 textAlign: 'justify',
               }}
             >
-              Our Cuberoots is dedicated to empowering individuals and organizations by providing expert guidance, valuable internships, professional CV writing services, career consulting, and Research projects with competitive pay. Explore our services and start your journey towards excellence today!
+             At Cuberoots, we're passionate about empowering individuals and organizations to reach their full potential. We provide expert guidance and support across a range of services, including internships, Industry based projects for academics,CV writing, career consulting, and research projects.              <br />
               <br />
-              <br />
-              Turn your ideas into reality with our entrepreneurship and innovation support services. Whether you're a budding entrepreneur or an established business owner, our Cuberoots offers the resources, mentorship, and guidance you need to start, grow, and scale your business. Explore our entrepreneurial programs and take the first step towards building something extraordinary.
-            </MDBTypography>
+              We also champion entrepreneurship and innovation, offering resources and mentorship to help turn your ideas into thriving businesses. Whether you're looking to advance your career or build something extraordinary, Cuberoots is your partner for growth and success.            </MDBTypography>
           </Col>
           <Col xs={12} md={5} className="text-center mt-4 mt-md-0">
           <MDBCol lg="10" md="8" sm="12" className="mx-auto">

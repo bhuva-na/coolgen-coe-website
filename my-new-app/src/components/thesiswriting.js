@@ -82,9 +82,7 @@ const ThesisWriting = () => {
             </MDBTypography>
             <hr />
             <MDBTypography className="fs-5 lh-base" style={{ fontFamily: 'Matemasie', fontWeight: "500", color: 'black' }}>
-              Our thesis writing program guides you through the process of conducting and writing a research project.
-              <br /><br />
-              Participate by selecting a topic, working closely with an advisor, and submitting your work for evaluation.
+            Develop your academic writing skills through hands-on research projects, enhance your ability to conduct original research, and master thesis writing to invest in your future academic and professional success.              <br /><br />
               <br />
             </MDBTypography>
           </Col>
@@ -105,8 +103,9 @@ const ThesisWriting = () => {
                   <i className="fas fa-book" style={{color:"#2e68b1" ,padding:"2%"}}></i> <b> COMPREHENSIVE RESEARCH</b>
                 </Card.Title>
                 <Card.Text  style={{ fontFamily: "Merriweather", fontWeight: "800", color: 'black' }}>
-                  Engage in detailed research that enhances your academic credentials.
-                </Card.Text>
+                Engage in detailed research to enhance your academic credentials and gain valuable insights.
+
+</Card.Text>
               </Card.Body>
             </Card>
           </Col>
@@ -123,8 +122,9 @@ const ThesisWriting = () => {
                   <i className="far fa-edit" style={{color:"#2e68b1",padding:"2%"}}></i> <b> WRITING SKILLS</b> 
                 </Card.Title>
                 <Card.Text style={{ fontFamily:"Merriweather", fontWeight: "800", color: 'black' }}>
-                  Improve your academic writing and communication skills.
-                </Card.Text>
+                Improve your academic writing and communication skills for effective expression of ideas.
+
+</Card.Text>
               </Card.Body>
             </Card>
           </Col>
@@ -141,8 +141,9 @@ const ThesisWriting = () => {
                   <i className="fas fa-chalkboard-teacher" style={{color:"#2e68b1",padding:"2%"}}></i> <b> EXPERT GUIDANCE</b> 
                 </Card.Title>
                 <Card.Text style={{ fontFamily: "Merriweather", fontWeight: "700", color: 'black' }}>
-                  Receive guidance from experienced advisors throughout the process.
-                </Card.Text>
+                Receive personalized support from experienced advisors throughout your research journey.
+
+</Card.Text>
               </Card.Body>
             </Card>
           </Col>
@@ -159,8 +160,14 @@ const ThesisWriting = () => {
                   <i className="fas fa-award" style={{color:"#2e68b1",padding:"2%"}}></i>    <b>    ACADEMIC ACHIEVEMENT</b>
                 </Card.Title>
                 <Card.Text style={{ fontFamily:  "Merriweather", fontWeight: "700", color: 'black' }}>
-                  Achieve academic recognition and enhance your qualifications.
-                </Card.Text>
+                Achieve academic recognition and enhance your qualifications for future opportunities.
+
+
+
+
+
+
+</Card.Text>
               </Card.Body>
             </Card>
           </Col>

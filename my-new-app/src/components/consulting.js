@@ -19,14 +19,19 @@ const Cvwriting = () => {
             </MDBTypography>
             <hr />
                         <MDBTypography className="lead mb-0"  style={{ fontFamily: 'Matemasie',fontWeight:"500" }}>
-            Get expert advice and guidance to advance your career and achieve your goals.
-              <br />
+                        Navigate your career path with confidence. Cuberoots offers personalized career consulting services, connecting you with experienced professionals from top companies like Google, Microsoft, and Wipro for 1:1 guidance              <br />
           <br></br>
-              <MDBTypography class="fw-bold" style={{ fontFamily: 'Matemasie',fontWeight:"500" }}> WHAT WE OFFER?</MDBTypography>
-        Our career consulting services are designed to help you navigate the complexities of your career path. Whether you're looking to switch industries, climb the corporate ladder, or find work-life balance, our experienced consultants are here to guide you.
+              <MDBTypography class="fw-bold" style={{ fontFamily: 'Matemasie',fontWeight:"500" }}> Our experts can help you:</MDBTypography>
+              <ul>
+              <li>Clarify your career goals</li>
+              <li>Develop a strategic career plan</li>
+              <li>Optimize your resume and LinkedIn profile</li>
+              <li>Improve your interviewing skills</li>
+             
+              </ul>
             </MDBTypography>
           </Col>
-          <Col className="text-center">
+          <Col className="text-center" style={{marginTop:"5%"}}>
             <img
               src={img32}
               className="img-fluid rounded"

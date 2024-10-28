@@ -3,13 +3,12 @@ import '../App.css'; // Import your CSS file
 import { Navbar, Nav, Container, NavDropdown, Modal} from 'react-bootstrap';
 import { MDBIcon } from 'mdb-react-ui-kit';
 import EnquiryForm from './enquiry'; // Adjust the path as needed
-import internpic from './internpic.png'
+import internpic from './pricing.png'
 import cuberroots from './cuberootslogo.png'
 export default function Header() {
   const [expanded, setExpanded] = useState(false);
   const [showForm, setShowForm] = useState(false);
   const [showModal, setShowModal] = useState(false);
-
   const handleToggle = () => setExpanded(!expanded);
   const handleShowEnquiryForm = () => setShowForm(true);
   const handleCloseEnquiryForm = () => setShowForm(false);
@@ -45,12 +44,10 @@ export default function Header() {
               <Nav.Link href="/" active>
                 HOME
               </Nav.Link>
-              <Nav.Link href="#" onClick={handleShowModal} active>
-                PRICING
-              </Nav.Link>
+             
               <NavDropdown title="SERVICES" id="services-dropdown" active>
                 <NavDropdown.Item
-                  href="/mbaprojects"
+                  href="/researchprojects"
                   style={dropdownItemStyle}
                   onMouseEnter={(e) => (e.target.style = { ...dropdownItemStyle, ...dropdownItemHoverStyle })}
                   onMouseLeave={(e) => (e.target.style = dropdownItemStyle)}
@@ -107,9 +104,38 @@ export default function Header() {
                   CAREERGUIDE CONSULTING
                 </NavDropdown.Item>
               </NavDropdown>
+              <NavDropdown title="COURSES" id="services-dropdown" active>
+                <NavDropdown.Item
+                  href="/dataanalytics"
+                  style={dropdownItemStyle}
+                  onMouseEnter={(e) => (e.target.style = { ...dropdownItemStyle, ...dropdownItemHoverStyle })}
+                  onMouseLeave={(e) => (e.target.style = dropdownItemStyle)}
+                >
+                  DATA ANALYTICS 
+                </NavDropdown.Item>
+                <NavDropdown.Item
+                  href="/enterprenur"
+                  style={dropdownItemStyle}
+                  onMouseEnter={(e) => (e.target.style = { ...dropdownItemStyle, ...dropdownItemHoverStyle })}
+                  onMouseLeave={(e) => (e.target.style = dropdownItemStyle)}
+                >
+                   STRATEGIC ENTREPRENEURSHIP
+                </NavDropdown.Item>
+                <NavDropdown.Item
+                  href="/data-bi"
+                  style={dropdownItemStyle}
+                  onMouseEnter={(e) => (e.target.style = { ...dropdownItemStyle, ...dropdownItemHoverStyle })}
+                  onMouseLeave={(e) => (e.target.style = dropdownItemStyle)}
+                >
+                 BUSINESS INTELLIGENCE
+                </NavDropdown.Item>
+                </NavDropdown>
+                <Nav.Link href="#" onClick={handleShowModal} active>
+                PRICING
+              </Nav.Link>
               <Nav.Link href="#" onClick={handleShowEnquiryForm} active>
                 LET’S TALK
-              </Nav.Link>
+              </Nav.Link> 
               <Nav.Link href="https://www.linkedin.com/company/coolgen-solutions/" target="_blank">
                 <MDBIcon fab icon="linkedin" style={{ color: '#0e76a8', fontSize: '1.5rem', marginLeft: '10px' }} />
               </Nav.Link>

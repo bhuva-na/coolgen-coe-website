@@ -1,5 +1,4 @@
 import React, { useState} from "react";
-
 import COEdetails from "./components/COEdetails";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./components/Home";
@@ -15,6 +14,9 @@ import Price from "./components/price";
 import ThesisWriting from "./components/thesiswriting";
 import TechnicalWriting from "./components/technicalwriting";
 import LiteratureSurvey from "./components/literature";
+import Dataanalytics from "./components/dataanalytics";
+import Enterprenur from "./components/enterpreneur";
+import DataBi from "./components/bi";
 function App() {
  
   const [showEnquiryForm, setShowEnquiryForm] = useState(false); // State for showing/hiding enquiry form
@@ -31,7 +33,7 @@ function App() {
       element: <COEdetails />,
     },
     {
-      path: "/mbaprojects",
+      path: "/researchprojects",
       element: <MBAprojects />,
     },
     {
@@ -65,6 +67,18 @@ function App() {
     {
       path: "/leturature",
       element: <LiteratureSurvey/>,
+    },
+    {
+      path: "/dataanalytics",
+      element: <Dataanalytics/>,
+    },
+    {
+      path: "/enterprenur",
+      element: <Enterprenur/>,
+    },
+    {
+      path: "/data-bi",
+      element: <DataBi/>,
     },
   ]);
 

@@ -57,10 +57,14 @@ const LiteratureSurvey = () => {
               <b>LITERATURE</b> <b style={{ color: "#2e68b1" }}>SURVEY</b>
             </MDBTypography>
             <hr />
-            <MDBTypography className="fs-5 lh-sm" style={{ fontFamily: 'Matemasie', fontWeight: "500", color: 'white' }}>
-              Conduct a comprehensive literature survey to analyze existing research and identify gaps.
-              <br /><br />
-              Develop your ability to review and synthesize academic literature, preparing you for research and academic projects.
+            <MDBTypography className="fs-5 lh-sm" style={{ fontFamily: 'Matemasie', fontWeight: "500", color: 'white' ,textAlign:"center"}}>
+            Cuberoots streamlines your literature survey process with comprehensive support that includes:<br /><br />
+            <ul>
+              <li>Identifying relevant databases and search terms</li>
+              <li>Managing and critically evaluating sources</li>
+              <li>Analyzing literature to identify key themes and trends</li>
+              <li>Developing a conceptual framework for your research</li>
+            </ul>
             </MDBTypography>
           </div>
         </div>
@@ -80,9 +84,7 @@ const LiteratureSurvey = () => {
             </MDBTypography>
             <hr />
             <MDBTypography className="fs-5 lh-base" style={{ fontFamily: 'Matemasie', fontWeight: "500", color: 'black' }}>
-              Our literature survey program guides you through the process of analyzing and synthesizing existing research.
-              <br /><br />
-              Engage in a structured approach to review literature, identify research gaps, and prepare comprehensive reports.
+            Cuberoots simplifies your literature survey by helping you identify relevant databases and search terms, manage and evaluate sources, analyze literature for key themes, and develop a robust conceptual framework for your research.              <br /><br />
               <br />
             </MDBTypography>
           </Col>
@@ -103,8 +105,7 @@ const LiteratureSurvey = () => {
                   <i className="fas fa-book" style={{color:"#2e68b1",padding:"2%"}}></i> <b>Comprehensive Analysis</b>
                 </Card.Title>
                 <Card.Text style={{ fontFamily: 'Matemasie', fontWeight: "700", color: 'black' }}>
-                  Conduct an in-depth review of existing literature to understand the current state of research.
-                </Card.Text>
+                Conduct an in-depth review of existing literature to understand the current state of research and its implications for your work.                </Card.Text>
               </Card.Body>
             </Card>
           </Col>
@@ -121,8 +122,7 @@ const LiteratureSurvey = () => {
                   <i className="far fa-edit" style={{color:"#2e68b1",padding:"2%"}}></i> <b>Research Gap Identification</b>
                 </Card.Title>
                 <Card.Text style={{ fontFamily: 'Matemasie', fontWeight: "700", color: 'black' }}>
-                  Identify gaps in existing research and opportunities for new studies.
-                </Card.Text>
+                Identify gaps in existing research to uncover opportunities for new studies and contribute valuable insights to your field.                </Card.Text>
               </Card.Body>
             </Card>
           </Col>
@@ -139,8 +139,7 @@ const LiteratureSurvey = () => {
                   <i className="fas fa-chalkboard-teacher" style={{color:"#2e68b1",padding:"4%"}}></i><b>Expert Guidance</b> 
                 </Card.Title>
                 <Card.Text style={{ fontFamily: 'Matemasie', fontWeight: "700", color: 'black' }}>
-                  Receive guidance from experienced researchers throughout the survey process.
-                </Card.Text>
+                Receive personalized guidance from experienced researchers throughout the survey process to enhance your understanding and approach.                </Card.Text>
               </Card.Body>
             </Card>
           </Col>
@@ -157,8 +156,7 @@ const LiteratureSurvey = () => {
                   <i className="fas fa-award" style={{color:"#2e68b1",padding:"2%"}}></i> <b>Academic Recognition</b>
                 </Card.Title>
                 <Card.Text style={{ fontFamily: 'Matemasie', fontWeight: "700", color: 'black' }}>
-                  Gain recognition for your thorough analysis and contributions to the field of study.
-                </Card.Text>
+                Gain recognition for your thorough analysis and contributions, enhancing your credibility and standing within the academic community.                </Card.Text>
               </Card.Body>
             </Card>
           </Col>

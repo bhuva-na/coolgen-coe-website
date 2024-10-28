@@ -23,8 +23,8 @@ const Cvwriting = () => {
     <div style={{ backgroundColor: "#FFFFFF" }}>
       {/* <Header /> */}
       <div className="how-it-works" style={{ padding: "2rem 1rem" }}>
-        <Row className="align-items-center mb-5">
-        <Col className="text-center mb-4">
+        <Row className="align-items-center mb-5 ">
+        <Col className="text-center mb-4 mt-4">
             <img
               src={img37}
               className="img-fluid rounded"
@@ -32,19 +32,23 @@ const Cvwriting = () => {
               style={{ maxWidth: "100%" }}
             />
           </Col>
-          <Col xs={12} lg={6} className="text-center text-lg-start">
+          <Col xs={12} lg={7} className="text-center text-lg-start">
             <MDBTypography tag="h1" variant="h1">
              <b  style={{color:"#2e68b1"}}> PRORESUME</b>  <b>CRAFTING</b> 
             </MDBTypography>
             <hr />
             <MDBTypography className="fs-5 lh-base"  style={{ fontFamily: 'Matemasie',fontWeight:"500",color: "black" }}>
-              Enhance your career prospects with a professionally crafted CV.
-              <br />
+            Make a lasting impression with a professionally crafted resume from Cuberoots.
+            <br />
               <br />
               <p className="fw-bolder">Why Choose Our CV Writing Service?</p>
-              Our expert writers know what employers are looking for. We ensure
-              your CV is tailored to highlight your skills, experience, and
-              achievements in a way that sets you apart from the competition.
+              We offer:
+              <ul>
+              <li>Personalized resume writing: Tailored to your specific career goals and industry.</li>
+              <li>Keyword optimization: Ensuring your resume gets noticed by Applicant Tracking Systems (ATS).</li>
+              <li>Compelling content: Highlighting your skills, achievements, and experience in a clear and concise manner.</li>
+              <li>Expert guidance:  Receive personalized advice and support throughout the process.</li>
+              </ul>
             </MDBTypography>
           </Col>
         </Row>

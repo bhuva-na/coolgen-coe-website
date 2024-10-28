@@ -37,12 +37,18 @@ const MBAprojects = () => {
 
             <hr />
             <MDBTypography className="fs-5 lh-sm" style={{ fontFamily: 'Matemasie', fontWeight: "500",color:'black' }}>
-              Engage in real-world projects, gain valuable experience, and earn competitive pay.
-              <br /><br />
-              Invest in experiential learning that translates directly into professional success, giving you a clear advantage in the job market.
-              <br /><br />
-              Contribute to meaningful projects that equip you with practical insights and expertise, making your investment in your education truly worthwhile.
+            Cuberoots is your partner in research success. We offer expert guidance, resources, and support to help you achieve your research goals. Our services include:           <br />
+              <br />
+              <ul>
+              <li>Connecting with experienced researchers</li>
+              <li>Refining research questions and methodology</li>
+              <li>Accessing literature reviews and data analysis tools</li>
+              <li>Project planning and collaboration</li>
+              <li>Disseminating research findings</li>
+              <li>Research internships for hands-on experience</li>
+              </ul>
             </MDBTypography>
+          
           </Col>
           <Col className="text-center mb-4">
             <img
@@ -69,9 +75,7 @@ const MBAprojects = () => {
             </MDBTypography>
             <hr />
             <MDBTypography className="fs-5 lh-base" style={{ fontFamily: 'Matemasie', fontWeight: "500",color:'black' }}>
-              Our MBA projects offer students the opportunity to work on real-world business challenges.
-              <br /><br />
-              To participate, simply browse the available projects, apply directly through our portal, and gain hands-on experience while contributing to impactful projects.
+            Connect with expert researchers for guidance, refine your project through collaboration, access essential resources, and gain hands-on experience with internships to effectively disseminate your findings.              <br /><br />
               <br />
             </MDBTypography>
           </Col>
